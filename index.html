@@ -23,7 +23,9 @@ body {
 }
 .fullscreen {
 	display: block;
-	height: 100%;
+	height: 50%;
+	top: -50%;
+	transform: translateY(50%);
 	margin: 0 auto;
 	background-image: url('./cunny.png');
 	background-size: contain;
@@ -31,8 +33,9 @@ body {
 audio {
 	position: fixed; 
 	display: block;
-	margin: -40px auto;
+	margin: 0 auto;
 	left: 45%;
+	bottom: 0;
 }
 
 .wrapper { 
@@ -46,10 +49,10 @@ audio {
 background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
 background-size: 1800% 1800%;
 
--webkit-animation: rainbow 18s ease infinite;
--z-animation: rainbow 18s ease infinite;
--o-animation: rainbow 18s ease infinite;
-  animation: rainbow 18s ease infinite;}
+-webkit-animation: rainbow 0.3s ease infinite;
+-z-animation: rainbow 0.3s ease infinite;
+-o-animation: rainbow 0.3s ease infinite;
+  animation: rainbow 0.3s ease infinite;}
 
 @-webkit-keyframes rainbow {
     0%{background-position:0% 82%}
@@ -77,9 +80,9 @@ background-size: 1800% 1800%;
 	<div class="wrapper">
 		<div class="container">
 			<a href="https://soundcloud.com/brandondowlin/hacker-cvnt" ><img src="cunny.png" class="fullscreen" /></a>
-			<audio src="audio.mp3" autoplay loop controls id="volume"></audio>
 		</div>
 	</div>
+	<audio src="audio.mp3" autoplay loop controls id="volume"></audio>
     
 </body>
 <script>
