@@ -45,6 +45,20 @@ hr {
 .button:hover {
     text-decoration: underline;
 }
+.button2 {
+    position: fixed;
+    top: 75%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    font-size: 3em;
+    font-family: 'Indie Flower', cursive;
+}
+.button2:hover {
+    text-decoration: underline;
+}
+
 .listContainer {
     display: block;
     position: relative;
