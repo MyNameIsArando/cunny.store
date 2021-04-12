@@ -2,7 +2,7 @@
 <html>
 <head>
     <!-- All copyrights belong to their respective owners. Please don't sue 👀 -->
-    <title>cunny</title>
+    <title>The Cunny Store</title>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Anton|Cantarell&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
@@ -17,7 +17,7 @@
     <div class="container">
         <!--- Welcome -->
         <video class="bgVid" id="volume" autoplay loop src="cock.mp4"></video>
-        <div class="welcome">
+        <div class="welcome" id="welcome">
             <div class="kebab">
                 <div class="kebabLogo"></div>
                 <h1 id="word">The Cunny Store</h1>
@@ -28,20 +28,75 @@
         <!--- Navigation Bar -->
         <div class="navBar">
             <div class="navBar-center">
-                <a href=""><p class="navBar-text">Home</p></a>
+                <a href="#welcome"><p class="navBar-text">Home</p></a>
                 <p class="navBar-text sep">|</p>
-                <a href=""><p class="navBar-text">About</p></a>
+                <a href="#about"><p class="navBar-text">About</p></a>
                 <p class="navBar-text sep">|</p>
-                <a href=""><p class="navBar-text">Download</p></a>
+                <a href="#reviews"><p class="navBar-text">Reviews</p></a>
                 <p class="navBar-text sep">|</p>
-                <a href=""><p class="navBar-text">Contact</p></a>
+                <a href="#download"><p class="navBar-text">Download</p></a>
+                <p class="navBar-text sep">|</p>
+                <a href="store.html"><p class="navBar-text">Store</p></a>
             </div>
         </div>
         
         <!--- Content -->
-        <div class="content">
-            <h1>cunny coming soon</h1>
+        <div class="content" id="about">
+            <div class="cunnyLogo"></div>
+            <hr/>
+            <div class="content-cont">
+                <p class="content-text">Our Cunny Toolkit boasts unrivaled detection rates and a 100% customer satisfaction rate</p>
+                <p class="content-text">Tired of losing against silvers? wanna make your opponents go "uuoohh"? Are you a pedophile?</p>
+                <p class="content-text">Download the free, easy to install Cunny Toolkit</p>
+            </div>
         </div>
+
+        <!-- Reviews -->
+        <div class="reviews" id="reviews">
+            <div class="reviews-cont">
+                <p class="quote">"Get Cunny. Get Bitches."</p>
+                <p class="quote">- Sumire420</p>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+            </div>
+            <div class="reviews-cont">
+                <p class="quote">"Moa Burger. Fortnite Burger."</p>
+                <p class="quote">- Jeremy Penfold</p>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+            </div>
+            <br/>
+            <div class="reviews-cont">
+                <p class="quote">"Does he fuck the little demon girl?"</p>
+                <p class="quote">- Brandon Dowling</p>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+            </div>
+            <div class="reviews-cont">
+                <p class="quote">"He's kinda qt if you only look at the face"</p>
+                <p class="quote">- Raymon from Netherlands</p>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+            </div>
+        </div>
+
+        <!-- Download -->
+        <div class="download" id="download">
+            <a href="img/logo.png" target="_blank"><button class="button">Download</button></a>
+        </div>
+
     </div>
 </body>
 <script src="jquery.js"></script>
