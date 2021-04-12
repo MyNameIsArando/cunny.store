@@ -6,7 +6,7 @@ a {
 body {
 	margin: 0; padding: 0;
     height: 100%; width: 100%;
-    background-color: #202020;
+    background-color: #151515;
     background-image: url('../img/bg.png');
 }
 h1,h2 {
@@ -43,3 +43,62 @@ p {
 }
 
 /* General */
+.container {
+    width: 100%; height: 100%;
+}
+
+/* Navbar */
+.navBar {
+    width: 100%; height: 100px;
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    padding: 1em 0;
+    background: #303030;
+}
+.navBarCenter {
+    width: 100%; height: 100%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+.navLogo {
+    height: 80px; width: 80px;
+    margin: 5px 5px 5px 100px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../img/uuoohh.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Content */
+.content {
+    width: 100%;
+    text-align: center;
+    padding-top: 132px;
+}
+.vid {
+    height: 240px;
+    width: 426px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1em;
+}
+.item {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.item:hover {
+    opacity: 0.6;
+}
+.item.screenshot {
+    background-image: url('../store/ss.png');
+}
