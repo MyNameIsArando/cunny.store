@@ -195,6 +195,40 @@ p {
     cursor: pointer;
 }
 
+/* Lore */
+.loreCont {
+    width: 100%; height: 100%;
+    background-color: #35b88f;
+    background-image: url('../store/banner.svg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.t44center {
+    display: block;
+    height: 45%; width: 100%;
+    text-align: center;
+}
+.t44button {
+    display:inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 60px;
+    background: #45f1bb;
+    border: 3px solid #74ffd3;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 20px;
+    margin: 0 30px;
+    text-transform: lowercase;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.t44button:hover {
+    transform: scale(1.05);
+    border: 6px solid #74ffd3;
+}
+
 /* Mobile CSS */
 @media screen and (max-width: 1080px) { 
     h1 {
