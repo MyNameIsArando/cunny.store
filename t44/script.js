@@ -15,7 +15,7 @@ $(document).ready(function(){
 });
 
 // Thot Patrol --------------------------------------------------
-// Arando
+// Arando ------------ NOT DONE ---------------------
 $('#arandoThot').click(function(){
   $('#infoThot').text('Arando')
   $('#thotTitles').text('tag, tag, tag')
